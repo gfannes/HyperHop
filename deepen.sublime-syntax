@@ -1,0 +1,22 @@
+%YAML 1.2
+---
+name: Deepen
+file_extensions: [md, textile, jira]
+scope: main.dpn
+
+contexts:
+  main:
+    - match: '.* @.x.*'
+      scope: markup.deleted
+    - match: '.* @V.*'
+      scope: string
+    - match: '.* @\d+[wdhm].*'
+      scope: markup.changed
+    - match: '.* &T:0m.*'
+      scope: markup.inserted
+    - match: '(h1\.|#) .*'
+      scope: markup.heading.1 punctuation.definition.heading
+    - match: '(h2\.|##) .*'
+      scope: markup.heading punctuation.definition.heading
+    - match: '(h\d\.|###+) .*'
+      scope: markup.heading

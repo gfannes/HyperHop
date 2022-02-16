@@ -6,9 +6,11 @@ scope: main.dpn
 
 contexts:
   main:
-    - match: '.* @.x.*'
+    - match: '.* @.x\b'
       scope: markup.deleted
-    - match: '.* @V.*'
+    - match: '.*(!).*'
+      scope: markup.deleted
+    - match: '.* @V\b'
       scope: string
     - match: '.* @\d+[wdhm].*'
       scope: markup.changed

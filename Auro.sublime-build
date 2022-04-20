@@ -1,0 +1,8 @@
+{
+	"shell_cmd": "rake build",
+	"working_dir": "/home/geertf/aa",
+	"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
+	"env": {
+		"auro_compiler": "gcc-x64-release-pic-vst-nowwise",
+	},
+}

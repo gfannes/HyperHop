@@ -1,8 +1,37 @@
 {
-	"shell_cmd": "rake rebuild",
-	"working_dir": "/home/geertf/aa",
-	"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
-	"env": {
-		"auro_compiler": "gcc-x64-release-pic-vst-nowwise",
+	"linux": {
+		"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
+		"working_dir": "/home/geertf/aa",
+		"env": {
+			"auro_compiler": "gcc-x64-release-pic-vst-nowwise",
+		},
 	},
+	"osx": {
+		"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
+		"working_dir": "/Users/geertf/aa",
+		"env": {
+			"auro_compiler": "clang-x64-release-pic-vst-nowwise",
+		},
+	},
+	"windows": {
+		"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
+		"working_dir": "/Users/geertf/all",
+		"env": {
+			"auro_compiler": "msvc-x64-release-pic-vst-nowwise",
+		},
+	},
+	"variants": [
+		{
+			"name": "build",
+			"shell_cmd": "rake build",
+		},
+		{
+			"name": "rebuild",
+			"shell_cmd": "rake rebuild",
+		},
+		{
+			"name": "ut",
+			"shell_cmd": "rake ut",
+		},
+	],
 }

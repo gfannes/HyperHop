@@ -1,5 +1,5 @@
 {
-	"shell_cmd": "rake build",
+	"shell_cmd": "rake rebuild",
 	"working_dir": "/home/geertf/aa",
 	"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
 	"env": {

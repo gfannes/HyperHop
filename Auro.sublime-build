@@ -3,7 +3,7 @@
 		"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
 		"working_dir": "/home/geertf/aa",
 		"env": {
-			"auro_compiler": "gcc-x64-release-pic-vlc-nowwise",
+			"auro_compiler": "gcc-x64-release-pic-vlc-nowwise-color",
 		},
 	},
 	"osx": {

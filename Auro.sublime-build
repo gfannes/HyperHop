@@ -1,21 +1,21 @@
 {
 	"linux": {
 		"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
-		"working_dir": "/home/geertf/aa",
+		"working_dir": "/home/geertf/auro/all",
 		"env": {
 			"auro_compiler": "gcc-x64-release-pic-vlc-nowwise-color",
 		},
 	},
 	"osx": {
 		"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
-		"working_dir": "/Users/geertf/aa",
+		"working_dir": "/Users/geertf/auro/all",
 		"env": {
 			"auro_compiler": "clang-release-vst-nowwise-pic",
 		},
 	},
 	"windows": {
 		"file_regex": "^([^:]+):(\\d+):(\\d+): error: (.+)$",
-		"working_dir": "/Users/geertf/all",
+		"working_dir": "/Users/geertf/auro/all",
 		"env": {
 			"auro_compiler": "msvc-x64-release-vst-nowwise-pic",
 		},

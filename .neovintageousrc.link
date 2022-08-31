@@ -16,6 +16,8 @@ nnoremap -s Anamespace  { <Esc>j0i} <Esc>k$hhi
 nnoremap -v ovoid ()<Esc>o{<CR>}<Esc>kk$hi
 nnoremap -V obool ()<Esc>o{<Esc>oMSS_BEGIN(bool);<Esc>o<Esc>o<Esc>oMSS_END();<Esc>o}<Esc>kkkkkk$hi
 
+nnoremap -y i" <lt><lt>  <lt><lt> "<Esc>hhhhhi
+
 nnoremap -l oauto lambda = [&](){<Esc>o};<Esc>k$hh
 
 nnoremap -e oTEST_CASE("", "")<CR>{<CR><Esc>0i}<Esc>0kkwla

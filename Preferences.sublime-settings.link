@@ -2,6 +2,7 @@
 	"save_on_focus_lost": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Six",
 		"Vintage",
 		"Vintageous",
@@ -22,7 +23,49 @@
 	},
 	"vintageous_use_ctrl_keys": true,
 	"file_exclude_patterns": [
+		"/home/geertf/newauro/root-all/.clang-format",
+		"/home/geertf/decode-it/cook/mkmf.log",
+		"/home/geertf/all/output.wav",
+		"/home/geertf/decode-it/deepen/dpn.app",
+		"/home/geertf/decode-it/deepen/.ninja_log",
+		"/home/geertf/all/.clang-format",
+		"/home/geertf/newauro/root-all/MODULE_DIRS",
+		"/home/geertf/decode-it/deepen/dpn_app_1.resp",
+		"/home/geertf/newauro/root-all/VERSION",
+		"/home/geertf/decode-it/cook/build/b0/libgubg.a",
+		"/home/geertf/decode-it/cook/.ninja_log",
+		"/home/geertf/all/MODULE_DIRS",
+		"/home/geertf/decode-it/cook/cook.exe",
+		"/home/geertf/all/.cli.ast.output",
+		"/home/geertf/decode-it/deepen/build.ninja",
+		"/home/geertf/decode-it/cook/build/b0/libcook.a",
+		"/home/geertf/newauro/root-all/output.wav",
+		"/home/geertf/all/VERSION",
+		"/home/geertf/decode-it/gubg/.ninja_log",
+		"/home/geertf/decode-it/cook/build/b0/cook.exe",
+		"/home/geertf/newauro/root-all/.cli.ast.output",
 	],
 	"folder_exclude_patterns": [
+		"/home/geertf/decode-it/deepen/gubg",
+		"/home/geertf/decode-it/gubg/fonts",
+		"/home/geertf/decode-it/gubg/.cook",
+		"/home/geertf/decode-it/gubg/include",
+		"/home/geertf/decode-it/gubg/bin",
+		"/home/geertf/newauro/root-all/info/cpp03",
+		"/home/geertf/decode-it/gubg/ruby",
+		"/home/geertf/decode-it/cook/.b0",
+		"/home/geertf/all/info/cpp03",
+		"/home/geertf/all/info/c89/generated",
+		"/home/geertf/all/cache",
+		"/home/geertf/decode-it/cook/build/b1",
+		"/home/geertf/newauro/root-all/info/c89/generated",
+		"/home/geertf/newauro/root-all/cache",
+		"/home/geertf/decode-it/deepen/.cook",
+	],
+	"extra_file_exclude_patterns":
+	[
+	],
+	"extra_folder_exclude_patterns":
+	[
 	],
 }

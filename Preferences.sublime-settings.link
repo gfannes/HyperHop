@@ -1,0 +1,28 @@
+{
+	"save_on_focus_lost": true,
+	"ignored_packages":
+	[
+		"Six",
+		"Vintage",
+		"Vintageous",
+	],
+	"neovintageous_build_version": 11100,
+	"font_size": 11,
+	"vintageous_handle_keys": {
+		"<C-w>": false,
+		"<C-a>": false,
+		"<C-k>": false,
+		"<C-b>": false,
+		"<C-r>": false,
+		"<M-1>": false,
+		"<M-2>": false,
+		"<M-3>": false,
+		"<M-4>": false,
+		"<M-5>": false,
+	},
+	"vintageous_use_ctrl_keys": true,
+	"file_exclude_patterns": [
+	],
+	"folder_exclude_patterns": [
+	],
+}

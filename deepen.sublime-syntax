@@ -16,6 +16,16 @@ contexts:
       scope: string markup.underline
     - match: '\.\? '
       scope: markup.deleted markup.underline
+    - match: '\.>[^ ]* '
+      scope: constant.other markup.underline
+    - match: '\.m '
+      scope: constant.language markup.italic markup.underline
+    - match: '\.s '
+      scope: constant.numeric markup.italic markup.underline
+    - match: '\.c '
+      scope: variable.function markup.italic markup.underline
+    - match: '\.w '
+      scope: comment markup.italic markup.underline
     - match: '(\.[@.] )?!\d*[a-zA-Z][\d.]* .*'
       scope: constant.other markup.raw
     - match: '\.\. .*'

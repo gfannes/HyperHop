@@ -7,7 +7,7 @@
 		"Vintage",
 		"Vintageous",
 	],
-	"neovintageous_build_version": 11100,
+	"neovintageous_build_version": 12700,
 	"font_size": 11,
 	"vintageous_handle_keys": {
 		"<C-w>": false,

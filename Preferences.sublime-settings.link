@@ -9,6 +9,7 @@
 	],
 	"neovintageous_build_version": 12700,
 	"font_size": 11,
+	"word_wrap": true,
 	"vintageous_handle_keys": {
 		"<C-w>": false,
 		"<C-a>": false,
